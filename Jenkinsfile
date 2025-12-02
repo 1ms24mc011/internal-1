@@ -9,7 +9,7 @@ pipeline {
                     } else if (env.BRANCH_NAME == 'dev') {
                         echo "hey"
                     } else {
-                        echo "branch name is ${env.master}"
+                        echo "main branch build"
                     }
                 }
             }
